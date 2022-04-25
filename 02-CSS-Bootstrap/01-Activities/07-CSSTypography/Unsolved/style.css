@@ -1,0 +1,23 @@
+.bold {
+    font-weight: bold;
+    font-family: luc;
+
+}
+
+.enlarge {
+    font-size: 24px;
+}
+
+.height {
+    line-height: 50px;
+}
+
+.new {
+    font-family: Turret Road;
+    
+}
+
+.new1 {
+    font-family: Grandstander;
+    line-height: 1.5rem;
+}

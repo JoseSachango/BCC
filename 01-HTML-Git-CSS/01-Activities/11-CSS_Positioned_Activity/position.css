@@ -1,0 +1,52 @@
+.position-relative {
+    background: #999;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+    
+}
+
+.paragraph {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+#center, .title {
+    margin: auto;
+    width: 75%;
+}
+
+
+
+.position-absolute {
+    position: absolute;
+    bottom: 0px;
+    
+    background: purple;
+    right: -10px;
+
+    
+}
+
+.position-fixed {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+
+#center-title {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+
+}
+
+
+
+

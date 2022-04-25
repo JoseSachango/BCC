@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite TV Shows</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      // Declaring an empty array names favTVshows and then a variable named tvshows
+      var favTVshows = [];
+      var tvShow;
+
+      // For Loop Elements Repeats 3 Times
+      for (var i = 1; i < 4; i++) {
+
+        // Going to ask the user to input their favorite to shows based on rank
+        tvShow = prompt("What's your #" + i + " favorite TV show?");
+
+        // assigns the user input from tvShow to the empty array, favTVShows
+        favTVshows.push(tvShow);
+      }
+
+      // for loop that loops through the favTVshows array
+      for (var j = 0; j < favTVshows.length; j++) {
+
+        // output the content in the favTVshows array in order
+        alert(favTVshows[j]);
+      }
+
+    </script>
+
+  </body>
+</html>

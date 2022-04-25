@@ -1,0 +1,11 @@
+.class1:hover {
+    background-color: blue;
+}
+
+.class2:active{
+    size: 60px;
+}
+
+.class3:focus {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
